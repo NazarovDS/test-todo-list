@@ -1,0 +1,48 @@
+.editTaskPage {
+
+
+  .editTaskDescription {
+    width: 100%;
+    height: 60px;
+    border: none;
+    resize: none;
+    padding:0 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .editTaskDate {
+    padding:0 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 110%;
+    p{
+      color: #A1A4B5;
+    }
+    div{
+      margin-left: auto;
+      margin-right: 0;
+      padding-right: 6px;
+
+      #trashIcon{
+
+        fill: #DADADA;
+      }
+      #trashIcon:hover{
+        fill: #8ADD37;
+      }
+    }
+
+  }
+}
+

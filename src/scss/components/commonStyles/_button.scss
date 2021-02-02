@@ -1,0 +1,20 @@
+.button {
+  background: #8ADD37;
+  border-radius: 25px;
+
+  border: none;
+  display: flex;
+  white-space: nowrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 230px;
+  height: 50px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}

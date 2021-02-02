@@ -1,0 +1,15 @@
+.taskList{
+  width: 100%;
+  height: calc(100vh - 72px - 250px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+
+  overflow-y: scroll;
+}
+.taskList::-webkit-scrollbar-track {border-radius: 4px;};
+.taskList::-webkit-scrollbar {width: 6px;};
+.taskList::-webkit-scrollbar-thumb {border-radius: 4px;background: #8ADD37;}

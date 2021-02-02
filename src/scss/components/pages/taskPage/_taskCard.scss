@@ -1,0 +1,31 @@
+.taskCard {
+  background: #FFFFFF;
+  height: 130px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  cursor: pointer;
+  .taskName{
+    height: 70%;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .taskDate{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 110%;
+    color: #A1A4B5;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    div{
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
+}
